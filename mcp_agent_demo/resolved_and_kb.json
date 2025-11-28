@@ -1,0 +1,26 @@
+[
+  {
+    "incident_number": "INC0010047",
+    "sys_id": "b2211d1cc3e132102878f8cc05013111",
+    "patched": false,
+    "article_sys_id": "0d06d594c32532102878f8cc0501318b"
+  },
+  {
+    "incident_number": "INC0010046",
+    "sys_id": "3921d91cc3e132102878f8cc05013149",
+    "patched": false,
+    "article_sys_id": "0b061994c32532102878f8cc0501314b"
+  },
+  {
+    "incident_number": "INC0010050",
+    "sys_id": "a9319d1cc3e132102878f8cc0501312a",
+    "patched": false,
+    "article_sys_id": "01165994c32532102878f8cc0501310b"
+  },
+  {
+    "incident_number": "INC0010045",
+    "sys_id": "a821991cc3e132102878f8cc05013198",
+    "patched": false,
+    "article_sys_id": "76169994c32532102878f8cc0501310d"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "input": {
+      "index": 0,
+      "short_description": "Printer queue is failing for Finance department",
+      "caller": "eve@example.com",
+      "result": {
+        "success": true,
+        "message": "Incident created successfully",
+        "incident_id": "22068954c3a132102878f8cc050131c2",
+        "incident_number": "INC0010012"
+      }
+    },
+    "output": [
+      "{\n  \"success\": true,\n  \"message\": \"Incident created successfully\",\n  \"incident_id\": \"fe7841d8c3a132102878f8cc0501313d\",\n  \"incident_number\": \"INC0010022\"\n}"
+    ]
+  },
+  {
+    "input": {
+      "index": 1,
+      "short_description": "Unable to mount NFS share on app servers",
+      "caller": "dave@example.com",
+      "result": {
+        "success": true,
+        "message": "Incident created successfully",
+        "incident_id": "4f068994c3a132102878f8cc05013189",
+        "incident_number": "INC0010013"
+      }
+    },
+    "output": [
+      "{\n  \"success\": true,\n  \"message\": \"Incident created successfully\",\n  \"incident_id\": \"d7784dd8c3a132102878f8cc050131c4\",\n  \"incident_number\": \"INC0010023\"\n}"
+    ]
+  },
+  {
+    "input": {
+      "index": 2,
+      "short_description": "High CPU usage on database server db-prod-01",
+      "caller": "alice@example.com",
+      "result": {
+        "success": true,
+        "message": "Incident created successfully",
+        "incident_id": "e706c994c3a132102878f8cc0501314e",
+        "incident_number": "INC0010014"
+      }
+    },
+    "output": [
+      "{\n  \"success\": true,\n  \"message\": \"Incident created successfully\",\n  \"incident_id\": \"3f788dd8c3a132102878f8cc05013163\",\n  \"incident_number\": \"INC0010024\"\n}"
+    ]
+  },
+  {
+    "input": {
+      "index": 3,
+      "short_description": "Printer queue is failing for Finance department",
+      "caller": "dave@example.com",
+      "result": {
+        "success": true,
+        "message": "Incident created successfully",
+        "incident_id": "0816c994c3a132102878f8cc05013158",
+        "incident_number": "INC0010015"
+      }
+    },
+    "output": [
+      "{\n  \"success\": true,\n  \"message\": \"Incident created successfully\",\n  \"incident_id\": \"d8888dd8c3a132102878f8cc05013186\",\n  \"incident_number\": \"INC0010025\"\n}"
+    ]
+  },
+  {
+    "input": {
+      "index": 4,
+      "short_description": "Printer queue is failing for Finance department",
+      "caller": "alice@example.com",
+      "result": {
+        "success": true,
+        "message": "Incident created successfully",
+        "incident_id": "f016c994c3a132102878f8cc050131ad",
+        "incident_number": "INC0010016"
+      }
+    },
+    "output": [
+      "{\n  \"success\": true,\n  \"message\": \"Incident created successfully\",\n  \"incident_id\": \"3c888dd8c3a132102878f8cc05013190\",\n  \"incident_number\": \"INC0010026\"\n}"
+    ]
+  },
+  {
+    "input": {
+      "index": 5,
+      "short_description": "Email delivery failures for sales@example.com domain",
+      "caller": "alice@example.com",
+      "result": {
+        "success": true,
+        "message": "Incident created successfully",
+        "incident_id": "5916c994c3a132102878f8cc050131dc",
+        "incident_number": "INC0010017"
+      }
+    },
+    "output": [
+      "{\n  \"success\": true,\n  \"message\": \"Incident created successfully\",\n  \"incident_id\": \"11888dd8c3a132102878f8cc050131d9\",\n  \"incident_number\": \"INC0010027\"\n}"
+    ]
+  },
+  {
+    "input": {
+      "index": 6,
+      "short_description": "Demo: VPN outage - users cannot connect to corporate VPN",
+      "caller": "alice@example.com",
+      "result": {
+        "success": true,
+        "message": "Incident created successfully",
+        "incident_id": "35160d94c3a132102878f8cc05013131",
+        "incident_number": "INC0010018"
+      }
+    },
+    "output": [
+      "{\n  \"success\": true,\n  \"message\": \"Incident created successfully\",\n  \"incident_id\": \"6d88cdd8c3a132102878f8cc05013114\",\n  \"incident_number\": \"INC0010028\"\n}"
+    ]
+  },
+  {
+    "input": {
+      "index": 7,
+      "short_description": "High CPU usage on database server db-prod-01",
+      "caller": "dave@example.com",
+      "result": {
+        "success": true,
+        "message": "Incident created successfully",
+        "incident_id": "ae160d94c3a132102878f8cc050131f5",
+        "incident_number": "INC0010019"
+      }
+    },
+    "output": [
+      "{\n  \"success\": true,\n  \"message\": \"Incident created successfully\",\n  \"incident_id\": \"0288cdd8c3a132102878f8cc050131cd\",\n  \"incident_number\": \"INC0010029\"\n}"
+    ]
+  },
+  {
+    "input": {
+      "index": 8,
+      "short_description": "Certificate expired on web-gateway.example.com",
+      "caller": "dave@example.com",
+      "result": {
+        "success": true,
+        "message": "Incident created successfully",
+        "incident_id": "cf160d94c3a132102878f8cc050131ff",
+        "incident_number": "INC0010020"
+      }
+    },
+    "output": [
+      "{\n  \"success\": true,\n  \"message\": \"Incident created successfully\",\n  \"incident_id\": \"7e88011cc3a132102878f8cc05013108\",\n  \"incident_number\": \"INC0010030\"\n}"
+    ]
+  },
+  {
+    "input": {
+      "index": 9,
+      "short_description": "Email delivery failures for sales@example.com domain",
+      "caller": "dave@example.com",
+      "result": {
+        "success": true,
+        "message": "Incident created successfully",
+        "incident_id": "fb164d94c3a132102878f8cc050131ab",
+        "incident_number": "INC0010021"
+      }
+    },
+    "output": [
+      "{\n  \"success\": true,\n  \"message\": \"Incident created successfully\",\n  \"incident_id\": \"9f88011cc3a132102878f8cc05013112\",\n  \"incident_number\": \"INC0010031\"\n}"
+    ]
+  }
+]

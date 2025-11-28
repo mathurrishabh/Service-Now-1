@@ -1,0 +1,52 @@
+{
+  "mandatory_fields": {
+    "status_code": 200,
+    "body": {
+      "result": []
+    }
+  },
+  "resolution_label": {
+    "status_code": 200,
+    "body": {
+      "result": []
+    }
+  },
+  "resolution_element": {
+    "status_code": 200,
+    "body": {
+      "result": []
+    }
+  },
+  "close_label": {
+    "status_code": 200,
+    "body": {
+      "result": [
+        {
+          "column_label": "Close code",
+          "internal_type": {
+            "link": "https://dev210756.service-now.com/api/now/table/sys_glide_object?name=string",
+            "value": "string"
+          },
+          "mandatory": "false",
+          "element": "close_code"
+        }
+      ]
+    }
+  },
+  "close_element": {
+    "status_code": 200,
+    "body": {
+      "result": [
+        {
+          "column_label": "Close code",
+          "internal_type": {
+            "link": "https://dev210756.service-now.com/api/now/table/sys_glide_object?name=string",
+            "value": "string"
+          },
+          "mandatory": "false",
+          "element": "close_code"
+        }
+      ]
+    }
+  }
+}

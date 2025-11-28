@@ -1,0 +1,12 @@
+digraph LangGraphFlow {
+	rankdir=LR
+	input [label="User Input"]
+	search_kb [label=SearchKB]
+	decide [label=Decide]
+	return_kb [label=ReturnKB]
+	create_ticket [label=CreateTicket]
+	input -> search_kb
+	search_kb -> decide
+	decide -> return_kb [label=resolved_found]
+	decide -> create_ticket [label=no_match]
+}

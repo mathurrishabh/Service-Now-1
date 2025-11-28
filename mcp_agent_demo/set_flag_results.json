@@ -1,0 +1,22 @@
+[
+  {
+    "number": "INC0010042",
+    "sys_id": "f511151cc3e132102878f8cc05013194",
+    "patched": true
+  },
+  {
+    "number": "INC0010043",
+    "sys_id": "a211591cc3e132102878f8cc050131c9",
+    "patched": true
+  },
+  {
+    "number": "INC0010049",
+    "sys_id": "78315d1cc3e132102878f8cc05013150",
+    "patched": true
+  },
+  {
+    "number": "INC0010050",
+    "sys_id": "a9319d1cc3e132102878f8cc0501312a",
+    "patched": true
+  }
+]

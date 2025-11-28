@@ -1,0 +1,30 @@
+[
+  {
+    "incident_number": "INC0010012",
+    "incident_sys_id": "22068954c3a132102878f8cc050131c2",
+    "article_result": {
+      "error": "Tool 'create_article' is not enabled in the current package 'full'."
+    }
+  },
+  {
+    "incident_number": "INC0010015",
+    "incident_sys_id": "0816c994c3a132102878f8cc05013158",
+    "article_result": {
+      "error": "Tool 'create_article' is not enabled in the current package 'full'."
+    }
+  },
+  {
+    "incident_number": "INC0010016",
+    "incident_sys_id": "f016c994c3a132102878f8cc050131ad",
+    "article_result": {
+      "error": "Tool 'create_article' is not enabled in the current package 'full'."
+    }
+  },
+  {
+    "incident_number": "INC0010021",
+    "incident_sys_id": "fb164d94c3a132102878f8cc050131ab",
+    "article_result": {
+      "error": "Tool 'create_article' is not enabled in the current package 'full'."
+    }
+  }
+]

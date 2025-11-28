@@ -1,0 +1,48 @@
+[
+  {
+    "query": "VPN outage users cannot connect",
+    "result": {
+      "action": "return_kb",
+      "incident_number": "INC0010042",
+      "article_sys_id": "4358dd98c32532102878f8cc05013103",
+      "title": "Resolution: INC0010042 - 1. Verify network/connectivity from affected clients (ping, ",
+      "body": "Incident: INC0010042\n\nFull resolution steps:\n- 1. Verify network/connectivity from affected clients (ping, traceroute to VPN gateway) and check gateway logs.\n- 2. Restart VPN service/process or fail over to standby gateway; clear stale sessions if required.\n- 3. Validate successful user connections, close monitoring alerts, and add close notes referencing root cause and fix.\n\nIncident: INC0010042\nShort description: Demo: VPN Outage - users cannot connect to corporate VPN\n"
+    }
+  },
+  {
+    "query": "Database connection timeout errors",
+    "result": {
+      "action": "return_kb",
+      "incident_number": "INC0010043",
+      "article_sys_id": "f96811d8c32532102878f8cc05013105",
+      "title": "Resolution: INC0010043 - 1. Check DB host health (CPU, memory, I/O), and DB listener/",
+      "body": "Incident: INC0010043\n\nFull resolution steps:\n- 1. Check DB host health (CPU, memory, I/O), and DB listener/status (tnsping, listener.log).\n- 2. Restart database listener/service or apply the validated DB patch; clear blocked sessions and run quick integrity checks.\n- 3. Verify application connections, run smoke tests, document root cause and remediation steps in close notes.\n\nIncident: INC0010043\nShort description: Demo: Oracle Database is not available - connection timeout errors\n"
+    }
+  },
+  {
+    "query": "Printer queue failing for finance",
+    "result": {
+      "action": "return_kb",
+      "incident_number": "INC0010049",
+      "article_sys_id": "e07851d8c32532102878f8cc050131e8",
+      "title": "Resolution: INC0010049 - 1. Inspect printer server queue and spooler service; identif",
+      "body": "Incident: INC0010049\n\nFull resolution steps:\n- 1. Inspect printer server queue and spooler service; identify stuck jobs and offending documents.\n- 2. Restart print spooler service and clear or reprint stuck jobs; update drivers or permissions if needed.\n- 3. Confirm successful print job flow from Finance, notify affected users, and document steps taken and any follow-ups.\n\nIncident: INC0010049\nShort description: Demo: Printer queue is failing for Finance department\n"
+    }
+  },
+  {
+    "query": "New request: install software on laptop",
+    "result": {
+      "action": "no_action"
+    }
+  },
+  {
+    "query": "Certificate expired on web gateway",
+    "result": {
+      "action": "return_kb",
+      "incident_number": "INC0010050",
+      "article_sys_id": "01165994c32532102878f8cc0501310b",
+      "title": "Resolution: INC0010050 - Demo: Certificate expired on web-gateway.example.com",
+      "body": "Incident: INC0010050\n\nResolution steps:\n- Restart the affected service or process\n- Clear transient caches and verify connectivity\n- Confirm monitoring alerts are cleared and close the incident\n\nIncident: INC0010050\nShort description: Demo: Certificate expired on web-gateway.example.com\n"
+    }
+  }
+]

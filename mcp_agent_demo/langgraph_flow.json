@@ -1,0 +1,44 @@
+{
+  "nodes": [
+    {
+      "id": "input",
+      "label": "User Input"
+    },
+    {
+      "id": "search_kb",
+      "label": "SearchKB"
+    },
+    {
+      "id": "decide",
+      "label": "Decide"
+    },
+    {
+      "id": "return_kb",
+      "label": "ReturnKB"
+    },
+    {
+      "id": "create_ticket",
+      "label": "CreateTicket"
+    }
+  ],
+  "edges": [
+    {
+      "from": "input",
+      "to": "search_kb"
+    },
+    {
+      "from": "search_kb",
+      "to": "decide"
+    },
+    {
+      "from": "decide",
+      "to": "return_kb",
+      "condition": "resolved_found"
+    },
+    {
+      "from": "decide",
+      "to": "create_ticket",
+      "condition": "no_match"
+    }
+  ]
+}
